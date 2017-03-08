@@ -1,3 +1,4 @@
-countMeUp.controller("VotesController", ['$scope', '$routeParams', function($scope, $routeParams) {
+countMeUp.controller("VotesController", ['$scope', '$routeParams', '$location', function($scope, $routeParams, $location) {
 	$scope.numberOfVotes = $routeParams.numberOfVotes;
+	var candidatePercentages = $location.search();
 }]);
