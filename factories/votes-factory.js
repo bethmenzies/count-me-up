@@ -3,7 +3,7 @@ countMeUp.factory('votesFactory', function($http) {
 	var votes = [];
 
 	factory.getVotes = function() {
-		votes = $http.get('models/votes.json?' + new Date().getTime());
+		votes = $http.get('models/votes.json?');
 		return votes;
 	}
 

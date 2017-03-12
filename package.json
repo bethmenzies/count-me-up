@@ -1,0 +1,30 @@
+{
+  "name": "count-me-up",
+  "version": "1.0.0",
+  "description": "click on the button to get a count of the votes",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "angular-route": "^1.6.3",
+    "angular": "^1.6.3",
+    "angular-ui-router": "^0.4.2",
+    "angular-mocks": "^1.6.3",
+    "jasmine-core": "^2.5.2",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethmenzies/count-me-up.git"
+  },
+  "author": "Beth Menzies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bethmenzies/count-me-up/issues"
+  },
+  "homepage": "https://github.com/bethmenzies/count-me-up#readme"
+}
